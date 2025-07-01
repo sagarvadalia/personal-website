@@ -12,108 +12,215 @@ import { ExternalLink, Github, Calendar } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "AI-Powered Healthcare Booking Bot",
     description:
-      "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, inventory management, and admin dashboard.",
+      "Developed an intelligent booking bot that automates patient scheduling and reduces administrative overhead by 40%. Implemented natural language processing to understand patient requests and automatically schedule appropriate appointments with healthcare providers.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "SvelteKit",
+      "TypeScript",
+      "OpenAI API",
+      "Node.js",
+      "PostgreSQL",
+      "WebSockets",
+    ],
+    liveUrl: "",
+    githubUrl: "",
+    date: "2025",
+    status: "Production",
+    company: "Harbor Health",
+  },
+  {
+    title: "SSO Integration Platform",
+    description:
+      "Built comprehensive single sign-on integrations with CapRx and mPulse systems for Harbor Health. Streamlined user authentication across multiple healthcare platforms and improved security compliance for patient data access.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "SvelteKit",
+      "SAML",
+      "OAuth 2.0",
+      "JWT",
+      "Node.js",
+      "Redis",
+      "Auth0",
+    ],
+    liveUrl: "",
+    githubUrl: "",
+    date: "2025",
+    status: "Production",
+    company: "Harbor Health",
+  },
+  {
+    title: "Healthcare Observability Infrastructure",
+    description:
+      "Configured and implemented comprehensive observability solution using Datadog for Harbor Health's healthcare systems. Set up monitoring, alerting, and performance tracking across microservices to ensure 99.9% uptime for critical patient systems.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "Datadog",
+      "APM",
+      "Log Management",
+      "Infrastructure Monitoring",
+      "SvelteKit",
+      "Node.js",
+    ],
+    liveUrl: "",
+    githubUrl: "",
+    date: "2025",
+    status: "Production",
+    company: "Harbor Health",
+  },
+  {
+    title: "Airvia - AI Travel Itinerary Platform",
+    description:
+      "Built a comprehensive travel application from the ground up as the founding engineer. Features AI-powered itinerary generation, real-time booking integration, and personalized travel recommendations based on user preferences and budget.",
     image: "/api/placeholder/400/250",
     technologies: [
       "React",
       "TypeScript",
       "Node.js",
-      "PostgreSQL",
-      "Stripe",
-      "Tailwind CSS",
-    ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/sagarvadalia/ecommerce-platform",
-    date: "2024",
-    status: "Live",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features. Built with modern web technologies.",
-    image: "/api/placeholder/400/250",
-    technologies: [
-      "Next.js",
-      "TypeScript",
+      "AI/ML APIs",
       "MongoDB",
-      "Socket.io",
-      "Tailwind CSS",
+      "Stripe",
+      "Google Maps API",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/sagarvadalia/task-management-app",
-    date: "2023",
-    status: "Live",
-  },
-  {
-    title: "Weather Dashboard",
-    description:
-      "A responsive weather application that displays current conditions, forecasts, and historical data. Features location-based weather and interactive charts.",
-    image: "/api/placeholder/400/250",
-    technologies: [
-      "React",
-      "JavaScript",
-      "OpenWeather API",
-      "Chart.js",
-      "CSS3",
-    ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/sagarvadalia/weather-dashboard",
-    date: "2023",
-    status: "Live",
-  },
-  {
-    title: "Social Media Analytics Tool",
-    description:
-      "A comprehensive analytics dashboard for social media performance tracking. Includes data visualization, reporting features, and integration with multiple platforms.",
-    image: "/api/placeholder/400/250",
-    technologies: ["Vue.js", "Python", "FastAPI", "PostgreSQL", "D3.js"],
     liveUrl: "",
-    githubUrl: "https://github.com/sagarvadalia/social-analytics",
-    date: "2023",
+    githubUrl: "",
+    date: "2025",
     status: "In Development",
+    company: "Airvia",
   },
   {
-    title: "Personal Blog Platform",
+    title: "Memora Health Design System",
     description:
-      "A custom-built blog platform with markdown support, comment system, and admin panel. Features SEO optimization and responsive design.",
-    image: "/api/placeholder/400/250",
-    technologies: ["Next.js", "TypeScript", "Prisma", "MySQL", "NextAuth.js"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/sagarvadalia/blog-platform",
-    date: "2022",
-    status: "Live",
-  },
-  {
-    title: "Cryptocurrency Tracker",
-    description:
-      "A real-time cryptocurrency price tracking application with portfolio management, price alerts, and market analysis features.",
+      "Led the creation of a comprehensive design system and component library that improved developer velocity by 2x across multiple teams. Implemented standardized UI components, design tokens, and documentation that serves 5+ engineering teams.",
     image: "/api/placeholder/400/250",
     technologies: [
       "React",
-      "JavaScript",
-      "CoinGecko API",
-      "Redux",
-      "Material-UI",
+      "TypeScript",
+      "Storybook",
+      "Figma",
+      "NPM",
+      "Jest",
+      "CSS-in-JS",
     ],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/sagarvadalia/crypto-tracker",
-    date: "2022",
-    status: "Live",
+    liveUrl: "",
+    githubUrl: "",
+    date: "2023-2024",
+    status: "Production",
+    company: "Memora Health",
+  },
+  {
+    title: "Healthcare Messaging Platform",
+    description:
+      "As Team Lead at Memora Health, managed a team of 5 engineers building scalable messaging infrastructure for healthcare providers. Implemented real-time communication features and improved system performance by 40%.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "React",
+      "Node.js",
+      "WebSockets",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Docker",
+    ],
+    liveUrl: "",
+    githubUrl: "",
+    date: "2022-2024",
+    status: "Production",
+    company: "Memora Health",
+  },
+  {
+    title: "AI/ML Model Monitoring Dashboard",
+    description:
+      "Developed a comprehensive monitoring dashboard for AI/ML models at Fractal Analytics. Tracks model performance, data drift, and prediction accuracy in real-time. Received enterprise-wide recognition for innovation and impact.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "React",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "D3.js",
+      "Docker",
+      "AWS",
+    ],
+    liveUrl: "",
+    githubUrl: "",
+    date: "2021-2022",
+    status: "Production",
+    company: "Fractal Analytics",
+  },
+  {
+    title: "Automated Testing Framework",
+    description:
+      "Built a comprehensive test automation framework for React applications at Zebra Technology. Implemented end-to-end testing pipelines that reduced manual testing time by 60% and improved deployment confidence.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Cypress",
+      "Jest",
+      "GitHub Actions",
+      "Docker",
+    ],
+    liveUrl: "",
+    githubUrl: "",
+    date: "2020-2021",
+    status: "Production",
+    company: "Zebra Technology",
+  },
+  {
+    title: "Enterprise React Applications",
+    description:
+      "Developed multiple React-based applications for Zebra Technology's enterprise clients. Built responsive, accessible interfaces for warehouse management and inventory tracking systems used by Fortune 500 companies.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Material-UI",
+      "Redux",
+      "REST APIs",
+      "Webpack",
+    ],
+    liveUrl: "",
+    githubUrl: "",
+    date: "2020-2021",
+    status: "Production",
+    company: "Zebra Technology",
+  },
+  {
+    title: "Real-Time Analytics Platform",
+    description:
+      "Personal project building a real-time analytics platform for web applications. Features event tracking, user behavior analysis, and customizable dashboards. Implemented using modern observability tools and practices.",
+    image: "/api/placeholder/400/250",
+    technologies: [
+      "React",
+      "Node.js",
+      "ClickHouse",
+      "Redis",
+      "Datadog",
+      "PostHog",
+      "Sentry",
+    ],
+    liveUrl: "",
+    githubUrl: "https://github.com/sagarvadalia",
+    date: "2024",
+    status: "In Development",
+    company: "Personal Project",
   },
 ];
 
 export function Projects() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12 max-w-7xl">
       {/* Header */}
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6">My Projects</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          Featured Projects
+        </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          A collection of projects that showcase my skills in full-stack
-          development, from simple web applications to complex enterprise
-          solutions.
+          A showcase of impactful projects from my 5+ years as a Senior
+          Frontend/Fullstack Engineer, spanning AI integration, team leadership,
+          and scalable system architecture.
         </p>
       </div>
 
@@ -126,7 +233,12 @@ export function Projects() {
           >
             {/* Project Image Placeholder */}
             <div className="h-48 bg-muted rounded-t-lg flex items-center justify-center text-muted-foreground">
-              Project Screenshot
+              <div className="text-center">
+                <div className="text-lg font-semibold mb-1">
+                  {project.company}
+                </div>
+                <div className="text-sm">Project Preview</div>
+              </div>
             </div>
 
             <CardHeader className="flex-grow">
@@ -135,7 +247,7 @@ export function Projects() {
                 <div className="flex items-center gap-2">
                   <Badge
                     variant={
-                      project.status === "Live" ? "default" : "secondary"
+                      project.status === "Production" ? "default" : "secondary"
                     }
                     className="text-xs"
                   >
@@ -143,11 +255,16 @@ export function Projects() {
                   </Badge>
                 </div>
               </div>
-              <div className="flex items-center gap-2 mb-3">
-                <Calendar className="h-4 w-4 text-muted-foreground" />
-                <span className="text-sm text-muted-foreground">
-                  {project.date}
-                </span>
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2">
+                  <Calendar className="h-4 w-4 text-muted-foreground" />
+                  <span className="text-sm text-muted-foreground">
+                    {project.date}
+                  </span>
+                </div>
+                <Badge variant="outline" className="text-xs">
+                  {project.company}
+                </Badge>
               </div>
               <CardDescription className="text-sm leading-relaxed">
                 {project.description}
@@ -185,16 +302,28 @@ export function Projects() {
                     </a>
                   </Button>
                 )}
-                <Button size="sm" variant="outline" className="flex-1" asChild>
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                {project.githubUrl && (
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className={project.liveUrl ? "flex-1" : "w-full"}
+                    asChild
                   >
-                    <Github className="h-4 w-4 mr-1" />
-                    Code
-                  </a>
-                </Button>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="h-4 w-4 mr-1" />
+                      View Code
+                    </a>
+                  </Button>
+                )}
+                {!project.liveUrl && !project.githubUrl && (
+                  <div className="w-full text-center text-sm text-muted-foreground py-2">
+                    Proprietary Project
+                  </div>
+                )}
               </div>
             </CardContent>
           </Card>
@@ -203,20 +332,29 @@ export function Projects() {
 
       {/* Call to Action */}
       <div className="text-center mt-16">
-        <Card className="max-w-2xl mx-auto">
-          <CardHeader>
-            <CardTitle>Interested in working together?</CardTitle>
-            <CardDescription>
-              I'm always open to discussing new opportunities and exciting
-              projects.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Button size="lg" asChild>
-              <a href="/contact">Get In Touch</a>
+        <div className="bg-muted/50 rounded-lg p-8">
+          <h2 className="text-2xl font-bold mb-4">Want to see more?</h2>
+          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+            These projects represent highlights from my professional experience.
+            I'm always working on new challenges and would love to discuss
+            potential collaborations.
+          </p>
+          <div className="flex gap-4 justify-center">
+            <Button asChild>
+              <a href="/contact">Let's Connect</a>
             </Button>
-          </CardContent>
-        </Card>
+            <Button variant="outline" asChild>
+              <a
+                href="https://github.com/sagarvadalia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="h-4 w-4 mr-2" />
+                GitHub Profile
+              </a>
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   );

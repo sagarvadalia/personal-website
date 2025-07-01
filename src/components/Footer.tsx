@@ -29,12 +29,15 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t bg-muted/30 mt-auto">
-      <div className="container mx-auto px-4 py-8">
+    <footer className="w-full border-t bg-muted/50 mt-auto">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <Link to="/" className="text-lg font-bold">
+            <Link
+              to="/"
+              className="text-lg font-bold hover:text-primary transition-colors"
+            >
               Sagar Vadalia
             </Link>
             <p className="text-sm text-muted-foreground mt-1">
@@ -77,7 +80,7 @@ export function Footer() {
                 key={index}
                 variant="ghost"
                 size="sm"
-                className="h-9 w-9 p-0"
+                className="h-9 w-9 p-0 hover:bg-primary/10"
                 asChild
               >
                 <a
